@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:id="@+id/tv_in_the_name_of_god"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="به نام خدا"
+    android:textColor="@android:color/black"
+    android:textSize="38sp"
+    android:gravity="center"/>
+    <ImageView
+        android:id="@+id/imv"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/windows_image"
+        android:layout_below="@id/tv_in_the_name_of_god"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="من یک برنامه نویس هستم"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:layout_below="@id/tv_in_the_name_of_god"
+        android:layout_above="@id/imv"
+        android:textColor="@android:color/black"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تست"
+      android:layout_centerInParent="true"/>
+</RelativeLayout>
